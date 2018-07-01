@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Selenium.YahooSearch1stAutosuggest&apos; to &apos;YahooSearchClick1stAutosuggest&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumPractice&apos;&#x0D;&#x0A;- Original element: &apos;Selenium.YahooSearch1stAutosuggest&apos;&#x0D;&#x0A;- Renamed element: &apos;Selenium.YahooSearchClick1stAutosuggest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;YahooSearch1stAutosuggest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Selenium{YahooSearch1stAutosuggest.java[YahooSearch1stAutosuggest" matchStrategy="1" name="YahooSearchClick1stAutosuggest" qualified="false" references="true" similarDeclarations="false" stamp="1526752501881" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;extentReportListerner.package-info.java&apos; to &apos;ExtentReportListerner.java&apos;&#x0D;&#x0A;- Original project: &apos;TestNG&apos;&#x0D;&#x0A;- Original element: &apos;extentReportListerner.package-info.java&apos;&#x0D;&#x0A;- Renamed element: &apos;extentReportListerner.ExtentReportListerner.java&apos;" description="Rename compilation unit &apos;package-info.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;extentReportListerner{package-info.java" name="ExtentReportListerner.java" references="false" stamp="1528566121356" version="1.0"/>
+</session>

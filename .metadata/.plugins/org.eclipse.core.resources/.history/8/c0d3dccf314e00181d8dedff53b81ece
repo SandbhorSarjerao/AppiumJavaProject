@@ -1,0 +1,17 @@
+package Runner;
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = "/Users/SARJERAO/eclipse-workspace/FreeCrmBDDFramework/Features/login.feature",
+		glue = {"stepDefinitions"},     // Path of the StepDefinition Files
+		format = {"pretty","html:test-output"},  // Generate Different Type of Reports
+		monochrome = true,    // Display console output in proper readable format
+	//	strict = true,      // check if any step is missing in StepDefinition File
+		dryRun = false       // check mapping of Feature and StepDefinition File
+		)
+
+public class TestRunner {}

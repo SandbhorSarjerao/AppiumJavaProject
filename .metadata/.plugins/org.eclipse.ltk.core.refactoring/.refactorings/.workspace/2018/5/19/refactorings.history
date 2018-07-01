@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;iConnectApplication&apos; to &apos;sdet&apos;&#x0D;&#x0A;- Original element: &apos;iConnectApplication&apos;&#x0D;&#x0A;- Renamed element: &apos;iConnectApplication&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;iConnectApplication&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=iConnectApplication" name="sdet" references="true" stamp="1525714623029" version="1.0"/>
+</session>
