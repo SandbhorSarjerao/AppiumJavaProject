@@ -63,7 +63,7 @@ public class Assignment_xPaths_Chrome2
 		int MaxPrice = 35 ;
 		for(int i=0; i<BookPriceSet.size(); i++)
 		{
-			BookPriceList[i] = (Integer)(BookPriceSet.get(i));
+			//BookPriceList[i] = (Integer)(BookPriceSet.get(i));
 					
 			//BookPrice[i] = Integer.parseInt(BookPriceList[i]);
 						

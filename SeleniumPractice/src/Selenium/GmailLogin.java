@@ -5,13 +5,15 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class GmailLogin 
 {
+	public static WebDriver driver = null ;
 	public static void main(String[] args) throws InterruptedException 
 	{
-		WebDriver driver = new FirefoxDriver();
+		BrowserSetup browser = new BrowserSetup("ie");
+		GmailLogin.driver = browser.getDriver();
+		// WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.google.com/gmail/about/");
 		driver.manage().window().maximize();
 		WebElement SIGNIN = driver.findElement(By.xpath("//*[text()='Sign In']"));
@@ -26,7 +28,7 @@ public class GmailLogin
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
-		password.sendKeys("*****");
+		password.sendKeys("Rajguru@3");
 		
 		WebElement NextButton2 = driver.findElement(By.xpath("//*[@id='passwordNext']"));
 		NextButton2.click();	

@@ -11,9 +11,9 @@ public class DataTypesInJava
 				//numbers
 				int var1 ;
 				var1=10;
+				System.out.println(var1);
 				
 				int var2=20;
-				System.out.println("var1");
 				System.out.println(var2);
 				
 				long l=123123;

@@ -12,7 +12,8 @@ public class ExcelPOI_With_xlsFormat
 
 	public static void main(String[] args) throws IOException 
 	{
-		File src = new File("C:\\Users\\SARJERAO\\Desktop\\TestExcel.xls") ;
+		//File src = new File("C:\\Users\\SARJERAO\\Desktop\\TestExcel.xls") ;
+		File src = new File("C:\\Users\\SARJERAO\\eclipse-workspace\\SeleniumPractice\\tools\\TestExcel.xls");
 		FileInputStream fis = new FileInputStream(src) ;
 		HSSFWorkbook wb = new HSSFWorkbook(fis);
 		HSSFSheet sh = wb.getSheet("Data") ;
