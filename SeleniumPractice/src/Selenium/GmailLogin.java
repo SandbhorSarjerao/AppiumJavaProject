@@ -20,7 +20,7 @@ public class GmailLogin
 		SIGNIN.click();
 		
 		WebElement EmailID = driver.findElement(By.xpath("//input[@id='identifierId']"));
-		EmailID.sendKeys("sandbhorsarjerao@gmail.com");
+		EmailID.sendKeys("********@****.com");
 		
 		WebElement NextButton = driver.findElement(By.xpath("//*[@id='identifierNext']"));
 		NextButton.click();
@@ -28,7 +28,7 @@ public class GmailLogin
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
-		password.sendKeys("Rajguru@3");
+		password.sendKeys("********");
 		
 		WebElement NextButton2 = driver.findElement(By.xpath("//*[@id='passwordNext']"));
 		NextButton2.click();	

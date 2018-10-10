@@ -18,7 +18,7 @@ public class GmailSendEmail
 		SIGNIN.click();
 		
 		WebElement EmailID = driver.findElement(By.xpath("//input[@id='identifierId']"));
-		EmailID.sendKeys("sandbhorsarjerao@gmail.com");
+		EmailID.sendKeys("*************@********.com");
 		
 		WebElement NextButton = driver.findElement(By.xpath("//*[@id='identifierNext']"));
 		NextButton.click();
@@ -38,15 +38,15 @@ public class GmailSendEmail
 		
 		WebElement toEmailID = driver.findElement(By.xpath("//*[@id='to'][@name='to']"));
 		toEmailID.click();
-		toEmailID.sendKeys("SeleniumForSure@gmail.com");
+		toEmailID.sendKeys("********@gmail.com");
 		toEmailID.sendKeys(";");
 		
 		WebElement subject = driver.findElement(By.xpath("//input[@name='subject']"));
-		subject.sendKeys("Gmail-Send Email Assignment");
+		subject.sendKeys("Gmail-Send Email Test");
 		
 		WebElement emailBody = driver.findElement(By.xpath("//textarea[@name='body']"));
 		emailBody.clear();
-		emailBody.sendKeys("Gmail-Send Email Assignment Practice, Please ignore!");
+		emailBody.sendKeys("Gmail-Send Email Test Practice, Please ignore!");
 		
 		WebElement sendButton = driver.findElement(By.xpath("//input[@name='nvp_bu_send']"));
 		sendButton.click();
