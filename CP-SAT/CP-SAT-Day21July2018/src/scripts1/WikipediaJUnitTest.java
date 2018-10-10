@@ -1,9 +1,6 @@
-package scripts;
-
-import static org.junit.Assert.fail;
+package scripts1;
 
 import java.io.File;
-import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
@@ -16,7 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class WikipediaUnitTest 
+public class WikipediaJUnitTest 
 {
 	WebDriver driver = null ;
 	
